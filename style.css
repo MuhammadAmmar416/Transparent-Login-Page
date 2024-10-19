@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter, Arial;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('image3.jpg');
+    background-size: cover;
+    background-position: center;
+
+
+}
+.main-container{
+    width: 420px;
+    box-shadow: 0px 10px 10px 5px rgba(255, 255, 255, .03);
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    color: white;
+    padding: 30px 40px;
+    border-radius: 10px;
+    backdrop-filter: blur(3.5px);
+
+}
+.main-container h1{
+    font-size: 36px;
+    text-align: center;
+}
+.main-container .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-box input{
+    color: white;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    background: transparent;
+    font-size: 16px;
+    padding: 20px 45px 20px 20px;
+
+}
+.input-box input:hover{
+    background-color: rgba(255, 255, 255, .03);
+}
+
+.input-box input::placeholder{
+    color: white;
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.remember-forget{
+    display: flex;
+    justify-content: space-between;
+    margin: -15px 0px 15px;
+    font-size: 14px;
+}
+
+.remember-forget label input{
+    accent-color: white;
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+.remember-forget a{
+    color: white;
+    text-decoration: none;
+}
+
+.remember-forget a:hover{
+    text-decoration: underline;
+}
+
+.btn{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
+.btn:hover{
+    background-color: rgba(255, 255, 255, .03);
+}
+.btn:active{
+    background-color: rgba(255, 255, 255, .1);
+}
+
+.sign-up{
+    font-size: 14px;
+    text-align: center;
+    margin: 15px 0px 15px;
+}
+
+.sign-up a{
+    color: rgb(189, 186, 186);
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+.sign-up a:hover{
+    text-decoration: underline;
+}
